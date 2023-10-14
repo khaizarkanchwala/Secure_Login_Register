@@ -1,0 +1,473 @@
+.App {
+  text-align: center;
+  display: flex; /* Use flexbox to arrange content */
+  align-items: center; /* Center vertically */
+  width: 1860px;
+  height: 1024px;
+  background: #FFF;
+}
+
+.bg {
+  background-image: url(./assets/Rectangle179.png);
+  width: 541px;
+  height: 1024px;
+}
+
+.leftdiv {
+  padding-top: 236px;
+  /* padding-bottom: 466px; */
+  /* padding-left: 125px;  */
+  /* padding-right: 125px; */
+  display: flex; /* Use flexbox to arrange content horizontally */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+}
+
+.logo {
+  width: 270px;
+  height: 322px;
+}
+
+.logoname {
+  width: 27px;
+  height: 63px;
+}
+
+.white {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 30px; /* Add 'px' to specify padding values */
+}
+
+.green {
+  color: #00D347;
+}
+
+.smallwhite {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.smallgreen {
+  color: #00D347;
+}
+
+.form-container {
+  width: 100%; 
+  height: 100%; 
+  background:#FFF
+}
+.logodocdiv{
+  padding-top: 20px;
+  /* padding-bottom: 853px; */
+  padding-left: 90px;
+}
+
+.logodoc{
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+}
+
+.signup{
+  color: #261E3B;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+/* padding-left: 147px; */
+}
+
+.login{
+  color: #CDCDCD;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.logodocdiv {
+  display: flex; /* Use Flexbox to arrange items horizontally */
+  align-items: center; /* Vertically align items in the center */
+}
+
+.links {
+  padding-left: 430px;
+  display: flex; /* Use Flexbox to arrange links horizontally */
+  align-items: center; /* Vertically align links in the center */
+  justify-content: center;
+}
+
+
+.form{
+      padding-top: 30px;
+      /* padding-left: 119px; */
+      align-items: center; /* Vertically align links in the center */
+      justify-content: center;
+}
+.left-column, .right-column {
+  display: inline-block;
+  width: 45%; /* Adjust the width as needed */
+  margin: 10px; /* Adjust the margin as needed */
+  vertical-align: top; /* Align columns at the top */
+  padding: 20px; /* Add padding to space out the fields */
+  /* background-color: #f4f4f4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+
+/* Styles for the input fields within the columns */
+.left-column input, .right-column input {
+  width: 50%; /* Make input fields take up full column width */
+  margin-bottom: 10px; /* Add some spacing between fields */
+  padding: 28px; /* Add padding to the input fields */
+  border: 1px solid #ccc; /* Add a border to the input fields */
+  border-radius: 4px; /* Add rounded corners to the input fields */
+  border: none;
+  border-bottom: 2px solid #261E3B;
+  outline: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+ input:focus{
+  border-color: #c51e9b; /* Change the border color on focus */
+  background-color: #f0f0f0; /* Change the background color on focus */
+}
+
+/* Additional styling for headers in the columns */
+.left-column h2, .right-column h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #c51e9b;
+  border-radius: 15px;
+  width: 160px;
+height: 50px;
+flex-shrink: 0;
+  border: none;
+  padding: 10px 20px 10px 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* Style for the glowing effect on hover */
+button:hover {
+  background-color: #c51e9b; /* Change the background color on hover */
+  box-shadow: 0 0 10px rgba(160, 2, 152, 0.5); /* Add a box shadow on hover */
+}
+.footer{
+  color: #BCBCBC;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center; /* Vertically align links in the center */
+  justify-content: center;
+  /* padding-top: 140px;
+  padding-left: 119px; */
+}
+
+
+.loginform {
+  width: 300px; /* Adjust the width as needed */
+  margin-top: 20px;
+  text-align: center;
+  align-items: center; /* Vertically align links in the center */
+  justify-content: center;
+  padding-left: 90px;
+  padding-top: 20px;
+}
+
+/* Style for form input fields */
+.loginform input {
+  width: 100%; /* Make input fields take up full column width */
+  margin-bottom: 10px; /* Add some spacing between fields */
+  padding: 28px; /* Add padding to the input fields */
+  border: 1px solid #ccc; /* Add a border to the input fields */
+  border-radius: 4px; /* Add rounded corners to the input fields */
+  border: none;
+  border-bottom: 2px solid #261E3B;
+  outline: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+input:focus{
+  border-color: #c51e9b; /* Change the border color on focus */
+  background-color: #f0f0f0; /* Change the background color on focus */
+}
+
+
+/* Style for the submit button */
+.loginform button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.card{
+  width: 514px;
+height: 540px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 2px solid #E0E0E0;
+background: #FFF;
+box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.cardpadding{
+  padding-top: 30px;
+      padding-left: 450px;
+      align-items: center; /* Vertically align links in the center */
+      justify-content: center;
+}
+.titlesicu{
+  color: #261E3B;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.belowsicu{
+  color: #BCBCBC;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* Submit button */
+.loginform-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.paddingbutton{
+  padding-top: 30px;
+      align-items: center; /* Vertically align links in the center */
+      justify-content: center;
+}
+.capturetitle{
+  color: #505050;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.capture{
+  padding-top: 30px;
+      align-items: center; /* Vertically align links in the center */
+      justify-content: center;
+}
+.camcard{
+  border-radius: 10px;
+border: 1px solid #909090;
+background: #C0C0C0;
+width: 514px;
+height: 450px;
+flex-shrink: 0;
+}
+.camcardpadding{
+  padding-top: 10px;
+  padding-left: 450px;
+  align-items: center; /* Vertically align links in the center */
+  justify-content: center;
+}
+.camimage{
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  padding-top: 185px;
+}
+.captureimage{
+  width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+  flex-shrink: 0;
+  background: #201A31;
+}
+.navlogo{
+  height: 62px;
+  flex-shrink: 0;
+  padding-left: 80px;
+}
+.navtext{
+  width: 132px;
+  height: 29px;
+  flex-shrink: 0;
+  padding-bottom: 12px;
+}
+.profilelogo{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  padding-left: 60%;
+}
+.textnavbar{
+  color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 80%;
+}
+.textpaddingnav{
+  position: relative;
+  bottom: 40px;
+}
+.navbutton{
+  padding-left: 88%;
+  position: relative;
+  bottom: 35px;
+}
+.displaytext{
+  color: #404040;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 10%;
+}
+.paddingsearch{
+  padding-left: 60%;
+  position: relative;
+  bottom: 60px;
+
+}
+.searchtext{
+  width: 450px;
+  height: 40px;
+  border-radius: 10px;
+}
+.searchbuttonpadding{
+  position: relative;
+  bottom:50px;
+  padding-left: 75%;
+}
+
+.data-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  border-radius: 20px;
+  background: #0DF5E3;
+}
+td{
+  border-radius: 10px;
+  background: #f3ec88;
+}
+
+.registration-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(20, 20, 20, 0.1);
+}
+.centerBike{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-top:  26px;
+  margin-left: -12px;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+#loop{
+  height: 100px;
+  width: 100px;
+  border:#bb5f27 solid 4px;
+  border-radius:200px;
+}
+#loop:before{
+  background: linear-gradient(to left,rgba(187,95,39,0) 0%,rgba(187,95,39,1)30%,rgba(187,95,39,1)70%,rgba(187,95,39,0)100%);
+  content: "";
+  display: block;
+  height: 4px;
+  left: -100px;
+  position: relative;
+  top:100px;
+  width: 300px;
+}
+#bike-wrapper{
+  height: 108px;
+  width: 108px;
+  animation: drive 3s linear infinite;
+}
+#bike{
+  height: 24px;
+  width: 25px;
+  background-image: url("http://s3-us-west-2.amazonaws.com/s.cdpn.io/133687/motorbike.png");
+}
+@keyframes drive{
+  0% {
+    margin-left: -364px;
+    opacity: 0;
+  }
+  33.33%{
+    transform: rotate(0deg);
+    margin-left: -50px;
+    opacity: 1;
+  }
+  66.66%{
+    transform: rotate(-360deg);
+    margin-left: -50px;
+    opacity: 1;
+  }
+  100%{
+    margin-left: 264px;
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+}
